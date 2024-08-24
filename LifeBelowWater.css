@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.goal {
+    padding: 2%;
+    background-color: #0e2f43;
+}
+
+.goal span {
+    font-weight: 900;
+    font-size: 1.8em;
+    color: white;
+}
+
+.goal p {
+    color: #89d2f0;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.targets {
+  padding: 2%;
+  background-color: #89d2f0;
+}
+
+.targets button {
+  font-size: 1.2rem;
+  background-color: #07284b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.targets button:hover {
+  background-color: #0056b3;
+}
+
+.details {
+    background-color: #466a91;
+    color: white;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.publications,
+.news {
+  margin-top: 20px;
+}
+
+.scroll-container {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.grid {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+.card {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

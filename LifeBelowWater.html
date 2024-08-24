@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Below Water</title>
+    <link rel="stylesheet" href="LifeBelowWater.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script
+      src="https://kit.fontawesome.com/a9dca9e707.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="target hoverEffect">
+        <a href="HomePage.html"><span>Protecting Life Below Water</span></a>
+      </div>
+      <div class="navlinks">
+        <ul>
+          <li class="hoverEffect"><a href="BlogsPage.html">Blog/News</a></li>
+          <li class="hoverEffect"><a href="ContactPage.html">Contact</a></li>
+          <li class="hoverEffect"><a href="AboutUsPage.html">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero">
+      <img src="images/hero.png" alt="Ocean Image" />
+    </section>
+    <main>
+      <section class="goal">
+        <span>
+          Sustainable Development Goal 14:<br />
+          Life Below Water
+        </span>
+        <p>
+          Conserve and sustainably use the oceans, seas, and marine resources
+          for sustainable development.
+        </p>
+        <p>
+          The 14th Sustainable Development Goal (SDG) seeks to address
+          significant challenges facing our oceans and marine environments.
+          Ocean acidification, caused by the absorption of carbon dioxide from
+          the atmosphere, threatens marine life and ecosystems by altering pH
+          levels. Overfishing has depleted fish stocks and disrupted aquatic
+          food chains, endangering the livelihoods of coastal communities
+          reliant on fishing. Marine pollution, including plastics and chemical
+          contaminants, poses a grave threat to marine biodiversity and
+          ecosystem health, with far-reaching consequences for human health and
+          economies.<br />Protecting marine biodiversity is crucial not only for
+          its intrinsic value but also for sustaining food security and economic
+          activities like tourism and coastal industries. By promoting
+          sustainable practices in fisheries and aquaculture, such as
+          implementing science-based quotas and monitoring systems, we can
+          ensure the long-term viability of marine resources. International
+          cooperation is essential to develop and enforce policies that reduce
+          marine pollution, improve waste management, and mitigate the impacts
+          of climate change on marine ecosystems.<br />Ultimately, achieving SDG
+          14 requires a holistic approach that integrates conservation efforts
+          with sustainable development goals. It involves empowering coastal
+          communities with knowledge and resources to manage marine resources
+          responsibly while advocating for policies that prioritize the health
+          and resilience of oceans and seas worldwide.
+        </p>
+      </section>
+      <section class="targets">
+        <h2>Targets</h2>
+        <button onclick="toggleDetails(this)">
+          Target 14.1 <span id="buttons">Show Details</span>
+        </button>
+        <div class="details" style="display: none">
+          By 2025, prevent and significantly reduce marine pollution of all
+          kinds, in particular from land-based activities, including marine
+          debris and nutrient pollution. This involves implementing improved
+          waste management practices and promoting sustainable consumption
+          habits globally.
+        </div>
+
+        <button onclick="toggleDetails(this)">
+          Target 14.2 <span id="buttons">Show Details</span>
+        </button>
+        <div class="details" style="display: none">
+          By 2020, sustainably manage and protect marine and coastal ecosystems
+          to avoid significant adverse impacts, including by strengthening their
+          resilience, and take action for their restoration in order to achieve
+          healthy and productive oceans. This includes establishing marine
+          protected areas and restoring degraded habitats through collaborative
+          conservation efforts.
+        </div>
+
+        <button onclick="toggleDetails(this)">
+          Target 14.3 <span id="buttons">Show Details</span>
+        </button>
+        <div class="details" style="display: none">
+          Minimize and address the impacts of ocean acidification, including
+          through enhanced scientific cooperation at all levels. Efforts involve
+          monitoring ocean pH levels, researching acidification's effects on
+          marine life, and implementing policies to reduce carbon emissions and
+          protect vulnerable ecosystems.
+        </div>
+
+        <button onclick="toggleDetails(this)">
+          Target 14.4 <span id="buttons">Show Details</span>
+        </button>
+        <div class="details" style="display: none">
+          By 2020, effectively regulate harvesting and end overfishing, illegal,
+          unreported and unregulated fishing and destructive fishing practices
+          and implement science-based management plans, in order to restore fish
+          stocks in the shortest time feasible, at least to levels that can
+          produce maximum sustainable yield as determined by their biological
+          characteristics. This requires enforcing fishing quotas, monitoring
+          fishing activities, and promoting sustainable fishing practices
+          through international agreements and community engagement.
+        </div>
+
+        <button onclick="toggleDetails(this)">
+          Target 14.5 <span id="buttons">Show Details</span>
+        </button>
+        <div class="details" style="display: none">
+          By 2020, conserve at least 10 per cent of coastal and marine areas,
+          consistent with national and international law and based on the best
+          available scientific information. This involves establishing marine
+          protected areas, promoting sustainable tourism practices, and engaging
+          local communities in marine conservation efforts.
+        </div>
+
+        <button onclick="toggleDetails(this)">
+          Target 14.6 <span id="buttons">Show Details</span>
+        </button>
+        <div class="details" style="display: none">
+          By 2020, prohibit certain forms of fisheries subsidies which
+          contribute to overcapacity and overfishing, eliminate subsidies that
+          contribute to illegal, unreported and unregulated fishing and refrain
+          from introducing new such subsidies, recognizing that appropriate and
+          effective special and differential treatment for developing and least
+          developed countries should be an integral part of the World Trade
+          Organization fisheries subsidies negotiation. This involves phasing
+          out harmful subsidies, redirecting funds towards sustainable fishing
+          practices, and supporting developing countries in adopting responsible
+          fisheries management policies.
+        </div>
+      </section>
+      <section class="publications">
+        <h2>Publications</h2>
+        <div class="scroll-container">
+          <div class="grid">
+            <div class="card">
+              <img
+                src="images/publication1.png"
+                class="pub1"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication2.png"
+                class="pub2"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication3.png"
+                class="pub3"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication4.png"
+                class="pub4"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication5.png"
+                class="pub5"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication6.png"
+                class="pub6"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication7.png"
+                class="pub7"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication8.png"
+                class="pub8"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication9.png"
+                class="pub9"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/publication10.png"
+                class="pub10"
+                id="pub_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <h2>News</h2>
+        <div class="scroll-container">
+          <div class="grid">
+            <div class="card">
+              <img
+                src="images/news1.png"
+                class="news1"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news2.png"
+                class="news2"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news3.png"
+                class="news3"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news4.png"
+                class="news4"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news5.png"
+                class="news5"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news6.png"
+                class="news6"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news7.png"
+                class="news7"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news8.png"
+                class="news8"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news9.png"
+                class="news9"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="images/news10.png"
+                class="news10"
+                id="news_img"
+                height="320px"
+                width="230px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <h3>About Us</h3>
+        <p>
+          We are dedicated to preserving marine life and promoting sustainable
+          development goals.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Marine Life Preservation | Designed by Your Company</p>
+      </div>
+    </footer>
+    <script src="LifeBelowWater.js"></script>
+  </body>
+</html>

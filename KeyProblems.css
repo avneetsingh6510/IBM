@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #3486a1;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: #e3e6e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.content {
+    padding: 50px;
+}
+
+.problem {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.problem h3 {
+    margin: 0 0 10px 0;
+}
+
+.problem img {
+    max-width: 200px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.problem-details {
+    display: none;
+    padding-top: 10px;
+}
+
+.problem:hover {
+    background: skyblue;
+}
+
+.show-details {
+    background: #007bff;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.show-details:focus {
+    outline: none;
+}
